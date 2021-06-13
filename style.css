@@ -82,8 +82,9 @@ html {
   font-size: 1.5em;
   margin: 10px 0;
   padding: 0px 10px;
-  text-align:justify;
-  letter-spacing: 2px;
+  text-align: left;
+  font-family: "Baloo Tammudu 2", cursive;
+  color: #05204a;
 }
 .pub-itens > p {
   font-size: 0.9em;
@@ -183,6 +184,11 @@ footer p {
   }
   .pub-itens {
 margin:30px;
+  }
+  .pub-itens h2 {
+text-align:justify;
+font-size:1em;
+word-spacing:0px;
   }
 
   .sidebar-category > ul li {
